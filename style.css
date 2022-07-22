@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: auto;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+
+.logo img {
+    width: 135px;
+    position: absolute;
+    left: 103px;
+    top: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    padding: 0px 0 0 690px;
+    margin-right: 65px;
+}
+
+.navbar a {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.navbar li {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.text a:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+
+}
+
+.mobile img {
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.mobile-img img {
+    width: 280px;
+    height: 436px;
+    position: absolute;
+    top: 163px;
+    left: 185px;
+}
+
+.text1 {
+    position: absolute;
+    top: 190px;
+    left: 560px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffff;
+
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    padding-top: 360px;
+    padding-left: 560px;
+
+}
+
+.button button {
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 45px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 300px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.section2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    padding-top: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+
+}
+
+.condents {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.c-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.c-img img {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 150px;
+}
+
+.c-phead {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.c-pbody {
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.section4 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.got-q {
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.got-q ul li {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-right: 750px;
+    display: flex;
+    position: relative;
+
+}
+
+.got-q ul li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.got-q ul li img {
+    width: 22px;
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
+
+.section5 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+
+.text5 {
+    letter-spacing: -3px;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+.button2 button {
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 45px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 300px;
+}
+
+.footer {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+
+
+
+
+.footer li {
+    color: #919496;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.footer .logo{
+    width: 140px;
+}
+.footer img{
+    width: 50px;
+}
+
+/* .footer div {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.footer ul li a {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer ul li a:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.footer img:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.nav {
+
+    display: flex;
+    background-color: black;
+    padding-left: 100px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding-bottom: 90px;
+    color: #919496;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.nav div {
+    position: relative;
+    padding-left: 700px;
+
+}
+
+.nav img {
+    position: absolute;
+    top: 3px;
+}
